@@ -10,7 +10,6 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    'no-extra-semi': 'off',
     semi: 'always'
   }
 };
