@@ -26,11 +26,11 @@ Some exercises in this assignment have a reference to the TypeScript documentati
 export function someFunc(args) {
   return args;
 }
-export type someType = { num1: number };
-export interface someInterface = { name: string };
+export type someType = { num1: number }
+export interface someInterface = { name: string }
 
 // Importing an exported entity by entity names from a source file
-import { someFunc, someType, someInterface } from './sourceFile';
+import { someFunc, someType, someInterface } from './sourceFile'
 ```
 
 - **!!! We don't have any restricted methods for this assignment, unless any restriction is set for the function individually in the task description. Please, pay attention to every exercise task description.**

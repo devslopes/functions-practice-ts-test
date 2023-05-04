@@ -4,12 +4,13 @@ module.exports = {
     es2021: true
   },
   extends: 'standard-with-typescript',
-  overrides: [
-  ],
+  overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
   rules: {
+    'no-extra-semi': 'off',
+    semi: 'always'
   }
-}
+};
