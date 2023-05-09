@@ -12,7 +12,6 @@
  * * * * The object contains two key-value pairs of type number both
  * * * If the numbers are both equal to 40, return the sum of them
  * * * Else return the doubled sum of them
- * * The function returns a boolean if array includes an item that is greater than val1 and less than val2
  * * The argument type must be annotated
  * * You can/should use Type Alias in this exercise
  * Example: getValueWithConditionOne({ num1: 40, num2: 40 }) => 80;
