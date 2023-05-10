@@ -6,8 +6,8 @@
  * * The function name is 'getDiffTwentySeven' strictly.
  * * The function takes an argument of a number:
  * * The function returns:
- * * * The difference between a given number and 27 by default
- * * * The double the absolute difference if the given number is greater than 27.
+ * * * If the argument is less than or equal to 27 => absolute difference of the given number and 27
+ * * * If the arguments is greater than 27 => absolute doubled difference of the given number and 27
  * * Argument types must be annotated
  * * You can use any type of function syntax!
  * Example: getDiffTwentySeven(13) => 14
